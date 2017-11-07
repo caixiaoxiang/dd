@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			div{
+				background: #FF0000;
+				width: 600px;
+				height: 3000px;
+				position:absolute;
+			}
+			
+			div a{
+				display: inline-block;
+				width: 200px;
+				height: 200px;
+				background: blue;
+				color: #fff;
+				float: left;
+				position:relative;
+			}div a:nth-child(2){
+			    margin-top: 400px;
+				
+			}
+			
+			
+			
+			
+			
+			
+			
+			/**
+			 * postion
+			 * 标准文档流：从上到下，从左往右布局方式
+			 * static:标准文档流布局，只能使用margin来偏移定位
+			 * relative:标准文档流布局，可以使用margin和top,left,right,bottom来偏移定位
+			 * absolute:脱离标准文档流布局(以父类非static，来进行定位，如果没有父元素为非static的定位，则基于浏览器进行布局)，
+			 * 		可以使用margin和top,left,right,bottom来偏移定位
+			 * fixed:脱离标准文档流,永远基于浏览器布局,可以使用margin和top,left,right,bottom来偏移定位
+			 */
+		</style>
+	</head>
+
+	<body>
+		<div>
+			<a href="">1</a>
+			<a href="">2</a>
+			<a href="">3</a>
+			<a href="">4</a>
+			<a href="">5</a>
+		</div>
+		<a href="">李会计阿斯顿发卡</a>
+	</body>
+
+</html>

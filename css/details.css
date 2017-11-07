@@ -1,0 +1,103 @@
+banner_con {
+	width: 100%;
+	height: 300px;
+	background: url(../img/original.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.banner_con .banner_body {
+	width: 1000px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+.banner_con .banner_body .b_d_content {
+	text-align: right;
+	padding-top: 35px;
+}
+
+.banner_con .banner_body .b_d_content h2 {
+	color: #fff;
+	font-size: 36px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+.banner_con .banner_body .b_d_content span {
+	display: inline-block;
+	padding: 0 15px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: rgba(255, 255, 255, .3);
+	/*透明背景色*/
+	color: #fff;
+}
+
+.banner_con .banner_body .b_d_content .time {
+	font-size: 18px;
+	color: #fff;
+	margin: 20px 0;
+}
+
+.banner_con .banner_body .b_d_content .btn_apply a {
+	display: inline-block;
+	padding: 10px 80px;
+	background-color: #fe5341;
+	font-size: 22px;
+	color: #fff;
+}
+
+.t_con {
+	width: 100%;
+	background-color: #f2f2f2;
+	height: 100px;
+	
+}
+
+.t_con .t_body {
+	background-color: #f2f2f2;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.t_con .t_body .t_content {
+	float:left;
+	padding-top:10px;
+	padding-left: 10px;
+	font-size: 20px;
+	line-height: 1.9;
+	width: 40px;
+	border-left: 6px #FE5341 solid;
+}
+
+.t_con .t_body ul li{
+	display: inline-block;
+	padding-top:10px;
+	float: left;
+	text-align: center;
+	font-size: 12px;
+	color: #666666;
+	padding-left: 140px;
+
+	
+}
+.t_con .t_body ul li p{
+	padding-top:10px;
+}
+
+.d_con{
+width:100%;
+margin-top:20px;
+
+}
+.d_con .d_body{
+    width:1000px;
+	margin:0 auto;
+}
+.d_con .d_body h1{
+	font-size:20px;
+	border-left:6px #FE5341 solid;
+	padding-left:10px;
+}
